@@ -337,7 +337,7 @@ inserted in the DDTCustFlyDetails table.
 4.  Type a name for the Flow and search for Dynamics 365 for Fin & Ops for the
     trigger. Select the trigger “**When a Business Event occurs**” and Create
 
-    ![Choose your flow's trigger: When a business event occurs [Dynamics 365 for Fin & Ops]](Images/LabxxEx2Task1Step4.png)
+    ![Choose your flow's trigger: When a business event occurs](Images/LabxxEx2Task1Step4.png)
 
 5.  Select the environment you are working with. Type the first few characters
     into instance and let the drop down suggest. The MSA needs access to the
