@@ -40,8 +40,7 @@ browser.
                   custTable.DDTCustomerTier = DDTTierRange::getTier(CustTable::getTotalMiles(custTable.AccountNum));
                   custTable.update();
               }
-              ttscommit;
-             
+              ttscommit;             
               if(_async)
                   info("It was an asynchronous process");
               else
