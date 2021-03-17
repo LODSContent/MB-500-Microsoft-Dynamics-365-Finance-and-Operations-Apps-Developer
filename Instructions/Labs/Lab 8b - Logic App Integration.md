@@ -307,9 +307,8 @@ not please use the standard trial process.
     "content": "\@triggerBody()?['ContentData']"
 
 17.  Replace that line with this:
-
-    "content": "\@json(decodeBase64(triggerBody()?['ContentData']))"
-
+    `"content": "\@json(decodeBase64(triggerBody()?['ContentData']))"`
+    
 18. **Save** the Logic App. Run the VS class and when complete, run the Logic
     App.
 
