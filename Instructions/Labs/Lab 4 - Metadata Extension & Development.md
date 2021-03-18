@@ -1,4 +1,4 @@
-# MB-500: Microsoft Dynamics 365: Finance and Operations Apps Developer**
+# MB-500: Microsoft Dynamics 365: Finance and Operations Apps Developer
 
 ## Lab 4 – Metadata Extension & Development**
 
@@ -201,7 +201,7 @@ is also added as a new tab in the detail sheet of the Customer form.
 
     3.  Label: *Fly Details*
 
-Save all.
+5.  Save all.
 
 # Exercise 2: Extend Standard Form
 
