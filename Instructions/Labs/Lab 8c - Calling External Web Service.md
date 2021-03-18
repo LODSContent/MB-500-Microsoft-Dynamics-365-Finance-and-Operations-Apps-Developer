@@ -1,6 +1,6 @@
-# MB-500: Microsoft Dynamics 365: Finance and Operations Apps Developer**
+# MB-500: Microsoft Dynamics 365: Finance and Operations Apps Developer
 
-## Lab 8c - Calling External Web Services**
+## Lab 8c - Calling External Web Services
 
 ### Lab Overview
 
@@ -68,7 +68,7 @@
               {
                   var binding = new System.ServiceModel.BasicHttpBinding();
                   var endpointAddress = new EndpointAddress("http://www.freewebservicesx.com/GetGoldPrice.asmx");
-                  GetGoldPriceSoapClient client = new GetGoldPriceSoapClient(binding, endpointAddress);      
+                  GetGoldPriceSoapClient client = new GetGoldPriceSoapClient(binding, endpointAddress);
                   return client.GetCurrentGoldPrice("domaindynamicstravel@gmail.com", "pass@word");
               }
           }
